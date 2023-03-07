@@ -1,0 +1,81 @@
+
+/* SERVICE SECTION CSS */
+
+.provide_services {
+    background: #FFFFFF;
+    padding-top: 10rem;
+    color: #26323C;
+}
+
+.services_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_left {
+    flex: 0 0 38%;
+    max-width: 50%;
+}
+
+.doc_img {
+    max-width: 100%;
+    border-radius: 35% 0;
+}
+
+.services_right {
+    flex: 0 0 58%;
+}
+
+.services_right h2 {
+    color: #26323C;
+}
+
+.services_icon_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.services_icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+
+.services_right_text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
+
+/* CARE HEALTH CSS */
+
+.careHealth {
+    background: #F9F9FD;
+}
+
+.care_container {
+    padding: 3rem 0;
+    color:#26323C;
+}
+
+.card_care {
+    padding: 2rem 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(38, 50, 60, 0.1);
+    box-shadow: 0px 10px 20px rgba(11, 26, 162, 0.02);
+    border-radius: 20px;
+    transition: var(--transition);
+}
+
+.card_care h3 {
+    color:#26323C;
+}
+
+.card_care p {
+    color: #3B4964;
+}

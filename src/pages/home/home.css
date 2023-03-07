@@ -1,0 +1,216 @@
+.blank {
+    height: 15rem;
+}
+
+
+.home_page_main {
+    height: 35rem;
+    position: relative;
+    top: 4.8rem;
+    background: linear-gradient(to right, #c0d1df, #f9f9f9, #e9efee, #7C9C93);
+
+}
+
+.main_container {
+    margin-left: 8rem;
+}
+
+.left_main {
+    width: 70%;
+    margin: auto;
+}
+
+.left_main h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 67px;
+    letter-spacing: 0.03em;
+}
+
+h2 span {
+    color: #25554D;
+}
+
+.left_main p {
+    color: #26323C;
+}
+
+
+.right_main {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+
+.right_main > .image1 {
+    width: 400px;
+    height: 448px;
+    position: relative;
+    top: 7rem;
+    left: 6rem;
+}
+
+.right_main > .image2 {
+    width: 450px;
+    height: 535px;
+    position: relative;
+    top: 1.5rem;
+}
+
+
+
+
+
+.home_page_btn {
+    color: #FFFFFF;
+    background: #25554D;
+    border: 2px solid #25554D;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.6rem 2rem;
+    margin-top: 2.5rem;
+    transition: var(--transition);
+}
+
+.home_page_btn:hover {
+    background: #FFFFFF;
+    border: 2px solid #25554D;
+    color: #25554D;
+}
+
+
+
+
+
+.quality_healthCare {
+    height: 40rem;
+    padding: 2rem;
+    position: relative;
+    top: 4.8rem;
+    gap: 2rem;
+}
+
+.quality_healthCare img {
+    width: 550px;
+    height: 450px;
+}
+
+.quality_health_contents {
+    width: 40%;
+    margin-top: 2rem;
+    color: #26323C !important;
+}
+
+.quality_health_contents h3 {
+    font-size: 36px;
+    line-height: 56px;
+    color: #26323C;
+}
+
+
+
+
+
+
+.speciality {
+    height: 25rem;
+    background: #25554D0a;
+}
+
+.speciality_container {
+    color: #26323C;
+    padding: 2rem 0;
+    padding-bottom: 1rem;
+}
+
+.Speciality_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.2rem;
+}
+
+.speciality_cards {
+    border-radius: 15px !important;
+    padding: 1rem 0.5rem !important;
+}
+
+.speciality_cards h4 {
+    color: #25554D !important;
+    transition: var(--transition);
+}
+
+.speciality_cards span {
+    width: 50% !important;
+}
+
+.speciality_cards span > img {
+    border-radius: 2rem !important;
+}
+
+.speciality_cards:hover h4 {
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+.meet_doctor {
+    height: 35rem;
+    gap: 2rem;
+}
+
+.meet_doctor img {
+    height: 530px;
+}
+
+.meet_doctor_contents {
+    width: 35%;
+    color: #26323C !important;
+    margin: auto;
+}
+
+.meet_doctor_contents h3 {
+    font-size: 36px;
+    line-height: 56px;
+    color: #26323C;
+}
+
+
+
+
+
+
+
+.achievments {
+    background: #25554D0a;
+    height: 50rem;
+}
+
+.achiev_container {
+    width: var(--container-width-md);
+    margin-inline: auto;
+    padding: 3rem 0;
+}
+
+.achiev_container h4 {
+    color: #25554D !important;
+}
+
+.impact_img {
+    width: 750px !important;
+    height: 400px !important;
+}
+
+.awards_image {
+    gap: 4rem;
+    position: relative;
+    top: -4rem;
+}
+
+.awards_image>img {
+    width: 450px;
+    height: 350px;
+}

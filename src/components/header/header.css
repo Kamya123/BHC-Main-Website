@@ -1,0 +1,14 @@
+.header_container {
+    min-height: 15rem;
+    width: 100%;
+    background-image: linear-gradient(rgba(37, 85, 77, 0.85), rgba(37, 85, 77, 0.85)), url(../../assets/images/img_rectangle20199.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4.8rem;
+}
+
+.header_text {
+    width: var(--container-width-lg);
+}

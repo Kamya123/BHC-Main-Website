@@ -1,0 +1,14 @@
+
+/* PRODUCT VIDEO CSS */
+.video_product {
+    height: 80vh;
+    position: relative;
+    top: 5rem;
+}
+
+.video_content {
+    height: 100%;
+    margin-top: 5rem;
+    border: 2px solid #25554D;
+    border-radius: 20px;
+}

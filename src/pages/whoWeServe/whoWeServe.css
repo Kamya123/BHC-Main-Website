@@ -1,0 +1,29 @@
+.ServiceCards {
+    margin-top: 4rem;
+}
+
+.ServiceCards_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: 4rem;
+    padding: 4rem;
+}
+
+.serviceCards_cards {
+    padding-bottom: 0 !important;
+}
+
+.serviceCards_cards h4 {
+    color: #25554D;
+}
+
+.serviceCards_cards small {
+    color: #25554D;
+    font-weight: 400;
+}
+
+.card_inner_content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

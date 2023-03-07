@@ -1,0 +1,80 @@
+.TeamsCards_wrapper {
+    width: var(--container-width-md);
+    margin-inline: auto;
+    padding-top: 10rem;
+    gap: 3rem;
+    color: #26323C;
+}
+
+.teamsCards_cards > .member_info > .icons > a {
+    border: 2px solid #26323c0f;
+}
+
+.teamsCards_cards {
+    gap: 2rem;
+    padding-bottom: 0 !important;
+}
+
+.cards_left {
+    width: 100rem;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 20px #26323c0f;
+}
+
+.cards_right {
+    padding-right: 2rem;
+}
+
+.member_info > small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 2rem;
+}
+
+.card_inner_content > small {
+    margin-bottom: 3rem !important;
+}
+
+.card_inner_content > h4 {
+    color: #26323C;
+}
+
+
+
+
+
+/* TEAM MEMBERS CARD'S CSS STYLING */
+
+.TeamMemberCards {
+    margin-top: 4rem;
+    background: #F9F9FD;
+}
+
+.TeamMemberCards_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+    padding: 4rem;
+}
+
+.teamMemberCards_cards {
+    padding-bottom: 0 !important;
+}
+
+.teamMemberCards_cards h4 {
+    color: #25554D;
+}
+
+.teamMemberCards_cards small {
+    color: #25554D;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+
+.teamMemberCards_cards > .icons > .icons_elt {
+    margin: 1rem 0.2rem;
+    border: 2px solid #26323c0f;
+}
+
