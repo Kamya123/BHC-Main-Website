@@ -7,7 +7,7 @@
     height: 35rem;
     position: relative;
     top: 4.8rem;
-    background: linear-gradient(to right, #c0d1df, #f9f9f9, #e9efee, #7C9C93);
+    background: linear-gradient(to right, #c0d1df, #f9f9f9, #e9efee, #7ad4cd);
 
 }
 
@@ -43,20 +43,7 @@ h2 span {
     bottom: 0;
 }
 
-.right_main > .image1 {
-    width: 400px;
-    height: 448px;
-    position: relative;
-    top: 7rem;
-    left: 6rem;
-}
 
-.right_main > .image2 {
-    width: 450px;
-    height: 535px;
-    position: relative;
-    top: 1.5rem;
-}
 
 
 
@@ -125,9 +112,11 @@ h2 span {
 }
 
 .Speciality_wrapper {
+    width: var(--container-width-md);
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 1.2rem;
+    margin: auto;
 }
 
 .speciality_cards {

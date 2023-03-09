@@ -7,13 +7,14 @@ import appStore from '../../assets/images/img_maskgroup11.png';
 import googleStore from '../../assets/images/img_maskgroup1.png';
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
+import pinkSplash from '../../assets/images/4__pink.png';
 
 
 
 const Contact = () => {
   return (
     <div>
-      <Header h1="Contact" p="Home" p1="Contact Us"/>
+      <Header h1="Contact" p="Home" p1="Contact Us" />
 
       <section className="assist_contact_section">
         <div className="container">
@@ -22,16 +23,16 @@ const Contact = () => {
           </div>
         </div>
         <div className="container contact_card_container flex flex-row justify-center">
-            <div className="card contact-card flex flex-col items-center space-y-4">
-              <span className='contact-icon'><BsTelephoneOutbound /></span>
-              <h3>Contact us</h3>
-              <p className="text-sm text-center leading-6">91+9914411392 <br /> anmol@bridgehealth.care</p>
-            </div>
-            <div className="card contact-card flex flex-col items-center space-y-4">
+          <div className="card contact-card flex flex-col items-center space-y-4">
+            <span className='contact-icon'><BsTelephoneOutbound /></span>
+            <h3>Contact us</h3>
+            <p className="text-sm text-center leading-6">91+9914411392 <br /> anmol@bridgehealth.care</p>
+          </div>
+          <div className="card contact-card flex flex-col items-center space-y-4">
             <span className='contact-icon'><BsClock /></span>
-              <h3>Opening Hours</h3>
-              <p className="text-sm text-center leading-6">Moday - Friday <br /> 09:00 AM - 05:00 PM</p>
-            </div>
+            <h3>Opening Hours</h3>
+            <p className="text-sm text-center leading-6">Moday - Friday <br /> 09:00 AM - 05:00 PM</p>
+          </div>
         </div>
       </section>
 
@@ -42,7 +43,7 @@ const Contact = () => {
       <div className="bottom_container contact_bottom_container">
         <div className='container bottom_ready'>
           <div className='bottom_content'>
-            <h2 className='get_app_heading text-4xl font-bold tracking-wide pb-10'>Get The <span className='border-b-4 pb-2 app_text'>App</span> </h2>
+            <h2 className='get_app_heading text-4xl font-bold tracking-wide pb-10'>Get The Pathology <span className='border-b-4 pb-2 app_text'>App</span> </h2>
             <p className='get_app_text mb-8'>
               It is a long established fact that a reader will be <br /> distracted by the readable content of a page when <br /> looking at its layout. The point of using Lorem Ipsum is <br /> that it has a more-or-less normal distribution.</p>
             <div className="store_img flex justify-end">
@@ -51,7 +52,7 @@ const Contact = () => {
             </div>
           </div>
           <div className='bottom_img'>
-            <img src={bt_img} alt='bottom image' />
+            <img src={pinkSplash} alt="Dynamic Image" className='dynamic_img' />
           </div>
         </div>
       </div>

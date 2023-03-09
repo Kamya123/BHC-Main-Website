@@ -15,12 +15,13 @@ import Image from './assets/images/img_image91_1.png';
 import Pawan from './assets/images/img_image93.png';
 
 
-import dermato from './assets/images/img_image2.png';
-import int_med from './assets/images/img_image3.png';
-import neuro from './assets/images/img_image4.png';
-import gen_med from './assets/images/img_image5.png';
-import otolaryngo from './assets/images/img_image5.png';
-import dent from './assets/images/img_image6.png';
+import online_consult from './assets/images/online_consult.png';
+import vitals_parameters from './assets/images/vitals_parameters.png';
+import online_appointment from './assets/images/online_appointment.png';
+import primary_health_check from './assets/images/img_image5.png';
+import follow_checkup from './assets/images/follow_checkup.png';
+import health_wallet from './assets/images/health_wallet.png';
+import vital_history from './assets/images/vital_history.png';
 
 
 
@@ -200,33 +201,38 @@ export const teamMembers = [
 export const speciality = [
     {
         id: 1,
-        image: <img src={dermato} alt='Dermatology' />,
-        title: "Dermatology"
+        image: <img src={online_consult} alt='online_consult' />,
+        title: "Online Consultation"
     },
     {
         id: 2,
-        image: <img src={int_med} alt='Internal Medicine' />,
-        title: "Internal Medicine"
+        image: <img src={vitals_parameters} alt='vitals_parameters' />,
+        title: "Live Vitals Parameters"
     },
     {
         id: 3,
-        image: <img src={neuro} alt='Neurology' />,
-        title: "Neurology"
+        image: <img src={online_appointment} alt='online_appointment' />,
+        title: "Online Appointment"
     },
     {
         id: 4,
-        image: <img src={gen_med} alt='General Medicine' />,
-        title: "General Medicine"
+        image: <img src={primary_health_check} alt='primary_health_checkup' />,
+        title: "Primary Health check up"
     },
     {
         id: 5,
-        image: <img src={dent} alt='Dentistry' />,
-        title: "Dentistry"
+        image: <img src={follow_checkup} alt='follow_checkup' />,
+        title: "Follow Check up"
     },
     {
         id: 6,
-        image: <img src={otolaryngo} alt='Otolaryngology' />,
-        title: "Otolaryngology"
+        image: <img src={health_wallet} alt='health_wallet' />,
+        title: "Health Wallet"
     },
+    {
+        id: 7,
+        image: <img src={vital_history} alt='vital_history' />,
+        title: "Vital History"
+    }
 ]
 

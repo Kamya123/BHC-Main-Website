@@ -184,3 +184,11 @@ img {
     display: block;
     font-weight: 300;
 }
+
+
+
+
+
+.dynamic_img {
+    height: 500px !important;
+}

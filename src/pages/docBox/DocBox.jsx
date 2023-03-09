@@ -7,6 +7,7 @@ import DivMedical from '../../assets/images/img_diversemedical.png';
 import Care_Img from '../../assets/images/care_img.png'
 import CommCard from '../../components/commCard/CommCard';
 import Footer from '../../components/footer/Footer';
+import m_greenSplash from '../../assets/images/3__m_green.png';
 
 
 
@@ -33,24 +34,19 @@ const DocBox = () => {
           </div>
           <div className="services_right flex flex-col text-justify">
             <h2 className="text-3xl font-bold leading-10 w-11/12 mb-4">We Provide Essential Products For Your Health Care</h2>
-            <p className="mt-4 text-base leading-7">Bridge Healthcare is leading a humanitarian revolution by harnessing the power of technology in the digital age. The company was founded in 2022 by students from IIT Madras and is dedicated to delivering innovative technology-based solutions to real-world healthcare problems. The team at Bridge Healthcare is passionate about advancing the field of digital healthcare and is committed to providing unrestricted access to quality healthcare for people from all walks of life. By striving for excellence and innovation, Bridge Healthcare is poised to make a significant impact in the healthcare industry.</p>
-          </div>
-        </div>
-        <div className="container bottom-text text-justify">
-          <p className="mt-4 text-base leading-7">Our goal is to enhance the communication and consultation process between doctors and patients for optimal healthcare. We aim to achieve this by developing telemedicine tools and software that provide easier access to doctors, along with analyzed medical records and real-time health data. This will aid in the improvement of primary healthcare and make medical treatment more efficient and effective.</p>
-          <div className="services_icon_text flex flex-row mt-4 space-x-4">
+            <p className="mt-4 text-base leading-7">We are working on the development of Tele-diagnostic devices that allow patients to receive remote consultations and diagnoses from nearby pharmacies and clinics. This significantly reduces the need for long-distance travel and improves access to quality care for rural and semi-urban populations. This will ensure that patients receive the treatments they need in a timely manner.</p>
+            <div className="services_icon_text flex flex-row mt-4 space-x-4">
             <div className="services_icon flex flex-col space-y-6 mt-3.5">
-              <FaCheckCircle />
               <FaCheckCircle />
               <FaCheckCircle />
               <FaCheckCircle />
             </div>
             <div className="services_right_text">
-              <p className="leading-10 text-ls font-normal">Connecting Rural and Semi-urban Healthcare to Mainstream</p>
-              <p className="leading-10 text-ls font-normal">Upgrading of Existing Healthcare model & Enhancing efficiency</p>
-              <p className="leading-10 text-ls font-normal">Primary Healthcare Accessibility and Affordability</p>
-              <p className="leading-10 text-ls font-normal">Empowering rural and semi-urban Healthcare</p>
+              <p className="leading-10 text-ls font-normal">24 Hours Emergency Assistance Call Us</p>
+              <p className="leading-10 text-ls font-normal">We are committed to providing healthcare service</p>
+              <p className="leading-10 text-ls font-normal">Really know the true needs and expectations of patients</p>
             </div>
+          </div>
           </div>
         </div>
       </section>
@@ -84,7 +80,7 @@ const DocBox = () => {
       </section>
 
 
-      <CommCard />
+      <CommCard dynamicImg={m_greenSplash} text="Nurse" />
 
       <Footer />
     </div>

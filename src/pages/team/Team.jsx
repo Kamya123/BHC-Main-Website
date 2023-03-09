@@ -15,7 +15,6 @@ const Team = () => {
       <TeamsCards />
       <TeamMembersCards />
 
-      <CommCard />
       <Footer />
     </div>
   )

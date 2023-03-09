@@ -7,6 +7,7 @@ import Header from '../../components/header/Header';
 import DivMedical from '../../assets/images/img_diversemedical.png';
 import Care_Img from '../../assets/images/care_img.png'
 import CommCard from '../../components/commCard/CommCard';
+import blueSplash from '../../assets/images/1__blue.png';
 
 
 
@@ -58,25 +59,22 @@ const About = () => {
           <div className="card_care_container flex flex-row space-x-8 mt-8">
             <div className="card card_care flex flex-col items-center space-y-4">
               <img src={Care_Img} alt="Care Image" />
-              <h3 className="text-2xl">Family Care</h3>
-              <p className="text-sm leading-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              <h3 className="text-2xl">Mission</h3>
+              <p className="text-sm leading-7 text-justify">Our mission at Bridge Healthcare is to bring quality primary healthcare to rural and semi-urban populations through the innovative use of technology. </p>
+              <button className='read_more'>READ MORE</button>
             </div>
             <div className="card card_care flex flex-col items-center space-y-4">
               <img src={Care_Img} alt="Care Image" />
-              <h3 className="text-2xl">Family Care</h3>
-              <p className="text-sm leading-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-            </div>
-            <div className="card card_care flex flex-col items-center space-y-4">
-              <img src={Care_Img} alt="Care Image" />
-              <h3 className="text-2xl">Family Care</h3>
-              <p className="text-sm leading-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              <h3 className="text-2xl">Vision</h3>
+              <p className="text-sm leading-7 text-justify">Our vision at Bridge Healthcare is to create a future where access to quality primary healthcare is a reality for all, regardless of location.</p>
+              <button className='read_more'>READ MORE</button>
             </div>
           </div>
         </div>
       </section>
 
 
-      <CommCard />
+      <CommCard dynamicImg={blueSplash} text="Patient" />
 
       <Footer />
     </div>

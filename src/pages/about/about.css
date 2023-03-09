@@ -63,13 +63,19 @@
     color:#26323C;
 }
 
+.card_care_container {
+    justify-content: center;
+    gap: 1rem;
+}
+
 .card_care {
-    padding: 2rem 1rem;
+    padding: 1.5rem;
     background: #FFFFFF;
     border: 1px solid rgba(38, 50, 60, 0.1);
     box-shadow: 0px 10px 20px rgba(11, 26, 162, 0.02);
     border-radius: 20px;
     transition: var(--transition);
+    width: 35%;
 }
 
 .card_care h3 {
@@ -78,4 +84,12 @@
 
 .card_care p {
     color: #3B4964;
+}
+
+.read_more {
+    position: relative;
+    right: -6.5rem;
+    color: #25554D;
+    font-weight: 700;
+    margin-top: 0 !important;
 }

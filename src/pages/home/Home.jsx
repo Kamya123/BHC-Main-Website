@@ -8,8 +8,7 @@ import { serviceCards, speciality } from '../../data';
 import impact_img from '../../assets/images/img_impact_image.png';
 import award1 from '../../assets/images/img_image11.png';
 import award2 from '../../assets/images/img_image12.png';
-import land_slide_1 from '../../assets/images/Landing-Slider-2.png';
-import land_slide_2 from '../../assets/images/Landing-Slider-5.png';
+import main_bg_right from '../../assets/images/main_bg_right.png'
 import quality_health from '../../assets/images/quality_health_img.png'
 import meet_doctor from '../../assets/images/meet_doctor_img.png';
 
@@ -29,8 +28,7 @@ const Home = () => {
           </div>
 
           <div className="right_main flex">
-            <img src={land_slide_1} alt="" className='image1' />
-            <img src={land_slide_2} alt="" className='image2' />
+            <img src={main_bg_right} alt="" className='image1' />
           </div>
         </div>
       </section>
@@ -50,7 +48,7 @@ const Home = () => {
           <p className="text-base font-normal w-3/4 text-center mb-4 leading-7">Ask a doctor online and get quick medical advice for your health queries. Our medical panel consists of over 3500, doctors from 80, specialties. </p>
         </div>
 
-        <div className='Speciality_wrapper container'>
+        <div className='Speciality_wrapper'>
           {
             speciality.map(({ id, image, title }) => {
               return (

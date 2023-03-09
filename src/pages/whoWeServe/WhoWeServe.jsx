@@ -5,6 +5,7 @@ import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import CommCard from '../../components/commCard/CommCard';
 import ServiceCards from '../../components/serviceCards/ServiceCards';
+import greenSplash from '../../assets/images/2__green.png';
 
 
 const WhoWeServe = () => {
@@ -12,7 +13,7 @@ const WhoWeServe = () => {
     <div>
       <Header h1="Our Services" p="Home" p1="WhoWeServe"/>
       <ServiceCards />
-      <CommCard />
+      <CommCard dynamicImg={greenSplash} text="Doctor" />
       <Footer />
     </div>
   )
