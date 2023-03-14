@@ -6,6 +6,8 @@ import './footer.css';
 import Logo from '../../assets/images/img_untitleddesign.png';
 import { Line } from '../line/Line';
 
+
+
 const Footer = () => {
   return (
     <footer className='footer_container'>
@@ -55,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="copyright flex items-center">
+      {/* <div className="copyright flex items-center">
         <div className="container flex justify-between">
           <p>© Copyright 2022 Laso Soins Accessibles.</p>
           <ul className='flex gap-8'>
@@ -63,7 +65,7 @@ const Footer = () => {
             <li>Terms Of Use</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </footer>
   )
 }

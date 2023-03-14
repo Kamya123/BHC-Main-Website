@@ -37,7 +37,7 @@ const Home = () => {
         <img src={quality_health} alt="" />
         <div className="quality_health_contents">
           <h3 className='font-bold'>Quality Healthcare Starts With Quality</h3>
-          <p>We are working on the development of Tele-diagnostic devices that allow patients to receive remote consultations and diagnoses from nearby pharmacies and clinics. This significantly reduces the need for long-distance travel and improves access to quality care for rural and semi-urban populations. This will ensure that patients receive the treatments they need in a timely manner.</p>
+          <p className='text-justify'>We are working on the development of Tele-diagnostic devices that allow patients to receive remote consultations and diagnoses from nearby pharmacies and clinics. This significantly reduces the need for long-distance travel and improves access to quality care for rural and semi-urban populations. This will ensure that patients receive the treatments they need in a timely manner.</p>
           <button className='home_page_btn font-bold text-base'> READ MORE </button>
         </div>
       </section>
@@ -67,7 +67,7 @@ const Home = () => {
           <img src={meet_doctor} alt="" />
           <div className="meet_doctor_contents">
             <h3 className='font-bold'>Meet our Customercare</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis nam amet? Voluptas commodi perferendis, ipsa veniam inventore voluptatum consectetur vero quia, laboriosam doloribus accusantium, rem dolores tempore recusandae esse.</p>
+            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis nam amet? Voluptas commodi perferendis, ipsa veniam inventore voluptatum consectetur vero quia, laboriosam doloribus accusantium, rem dolores tempore recusandae esse.</p>
             <button className='home_page_btn font-bold text-base'> WATCH THE VIDEO </button>
           </div>
         </div>
