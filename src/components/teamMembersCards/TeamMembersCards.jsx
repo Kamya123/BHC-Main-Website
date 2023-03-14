@@ -15,7 +15,7 @@ const TeamMembersCards = () => {
                         return (
                             <Cards className="teamMemberCards_cards" key={id} >
                                 <span> {image} </span>
-                                <div className="card_inner_content">
+                                <div className="card_inner_content team_members_details">
                                     <h4 className='font-bold'> {name} </h4>
                                     <small> {desig} </small>
                                 </div>

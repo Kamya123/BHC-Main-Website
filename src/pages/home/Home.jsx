@@ -37,7 +37,7 @@ const Home = () => {
         <img src={quality_health} alt="" />
         <div className="quality_health_contents">
           <h3 className='font-bold'>Quality Healthcare Starts With Quality</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates, odio incidunt iusto eum non, laudantium consequatur alias deleniti iste perferendis recusandae, deserunt dolore corrupti dolores. Quia voluptas aperiam nihil magnam dolor, pariatur, dolorum possimus nemo totam nisi autem esse omnis soluta? Veritatis animi illo dicta, fugit nostrum quo possimus.</p>
+          <p>We are working on the development of Tele-diagnostic devices that allow patients to receive remote consultations and diagnoses from nearby pharmacies and clinics. This significantly reduces the need for long-distance travel and improves access to quality care for rural and semi-urban populations. This will ensure that patients receive the treatments they need in a timely manner.</p>
           <button className='home_page_btn font-bold text-base'> READ MORE </button>
         </div>
       </section>
@@ -66,9 +66,9 @@ const Home = () => {
         <div className="doctor_online_container container flex">
           <img src={meet_doctor} alt="" />
           <div className="meet_doctor_contents">
-            <h3 className='font-bold'>Meet a doctor online</h3>
+            <h3 className='font-bold'>Meet our Customercare</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis nam amet? Voluptas commodi perferendis, ipsa veniam inventore voluptatum consectetur vero quia, laboriosam doloribus accusantium, rem dolores tempore recusandae esse.</p>
-            <button className='home_page_btn font-bold text-base'> READ MORE </button>
+            <button className='home_page_btn font-bold text-base'> WATCH THE VIDEO </button>
           </div>
         </div>
       </section>

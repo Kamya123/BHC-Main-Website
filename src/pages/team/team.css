@@ -32,6 +32,10 @@
     margin-bottom: 2rem;
 }
 
+.team_members_details {
+    padding: 0 1rem;
+}
+
 .card_inner_content > small {
     margin-bottom: 3rem !important;
 }

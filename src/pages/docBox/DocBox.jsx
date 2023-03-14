@@ -67,12 +67,12 @@ const DocBox = () => {
             </div>
             <div className="card card_care flex flex-col items-center space-y-4">
               <img src={Care_Img} alt="Care Image" />
-              <h3 className="text-2xl">Family Care</h3>
+              <h3 className="text-2xl">Urgent Care</h3>
               <p className="text-sm leading-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div className="card card_care flex flex-col items-center space-y-4">
               <img src={Care_Img} alt="Care Image" />
-              <h3 className="text-2xl">Family Care</h3>
+              <h3 className="text-2xl">Regular Care</h3>
               <p className="text-sm leading-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
           </div>

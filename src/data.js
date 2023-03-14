@@ -82,37 +82,37 @@ export const serviceCards = [
     {
         id: 1,
         image: <img src={img1} /> ,
-        title: "Individuals",
+        title: "TDM Services",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     },
     {
         id: 2,
         image: <img src={img2} /> ,
-        title: "Employers",
+        title: "App Services",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     },
     {
         id: 3,
         image: <img src={img3} /> ,
-        title: "Health Plans",
+        title: "Integrated Services",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     },
     {
         id: 4,
         image: <img src={img4} /> ,
-        title: "Hospitals And Health Systems",
+        title: "UHI",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     },
     {
         id: 5,
         image: <img src={img5} /> ,
-        title: "Healthcare Centers",
+        title: "Data Analytics",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     },
     {
         id: 6,
         image: <img src={img6} /> ,
-        title: "Nursing Homes",
+        title: "Med-Cloud",
         info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
     }
 ]
@@ -152,14 +152,14 @@ export const teamMembers = [
     {
         id: 2,
         image: <img src={Image} alt='Images Team_Member' /> ,
-        name: "Rebbeca",
-        desig: "Director"
+        name: "Satyanarayana",
+        desig: "CKO"
     },
     {
         id: 3,
         image: <img src={Image} alt='Images Team_Member' /> ,
-        name: "Rebbeca",
-        desig: "Director"
+        name: "Bhaskar",
+        desig: "R&D Head"
     },
     {
         id: 4,
@@ -170,26 +170,26 @@ export const teamMembers = [
     {
         id: 5,
         image: <img src={Image} alt='Images Team_Member' /> ,
-        name: "Rebbeca",
-        desig: "Director"
+        name: "Satyendra",
+        desig: "Creative Head"
     },
     {
         id: 6,
         image: <img src={Image} alt='Images Team_Member' /> ,
-        name: "Rebbeca",
-        desig: "Director"
+        name: "Divyanshu",
+        desig: "Adviser"
     },
     {
         id: 7,
         image: <img src={Image} alt='Images Team_Member' /> ,
-        name: "Rebbeca",
-        desig: "Director"
+        name: "Dr. Mukund Sriniwas",
+        desig: "Social Media"
     },
     {
         id: 8,
         image: <img src={Image} alt='Images Team_Member' /> ,
         name: "Rebbeca",
-        desig: "Director"
+        desig: "Social Media"
     }
 ]
 
