@@ -67,7 +67,7 @@ const Home = () => {
           <img src={meet_doctor} alt="" />
           <div className="meet_doctor_contents">
             <h3 className='font-bold'>Meet our Customercare</h3>
-            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perspiciatis nam amet? Voluptas commodi perferendis, ipsa veniam inventore voluptatum consectetur vero quia, laboriosam doloribus accusantium, rem dolores tempore recusandae esse.</p>
+            <p className='text-justify'>That's a great commitment! Deep technology has the potential to revolutionize healthcare, especially in rural and semi-urban areas where access to quality healthcare can be limited. By leveraging technologies such as artificial intelligence, machine learning, and telemedicine, you can help improve the delivery of healthcare services to these populations.</p>
             <button className='home_page_btn font-bold text-base'> WATCH THE VIDEO </button>
           </div>
         </div>

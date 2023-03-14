@@ -83,7 +83,7 @@ export const serviceCards = [
         id: 1,
         image: <img src={img1} /> ,
         title: "TDM Services",
-        info: "Lorem Ipsum is simply dummy text of the printing typesetting psum has been the industry."
+        info: "Upgrading health infrastructure, such as small clinics and pharmacies"
     },
     {
         id: 2,
