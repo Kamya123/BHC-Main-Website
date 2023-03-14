@@ -10,7 +10,7 @@ import { Line } from '../line/Line';
 const CommCard = (props) => {
     return (
         <div className='bottom_container'>
-            <div className="container">
+            {/* <div className="container">
                 <div className="readyComm_container flex">
                     <Line className='side_line' />
                     <div className="readyComm_text">
@@ -19,7 +19,7 @@ const CommCard = (props) => {
                     </div>
                     <button className='get_btn text-lg font-bold'>Get Started</button>
                 </div>
-            </div>
+            </div> */}
             <div className='container bottom_ready'>
                 <div className='bottom_content'>
                     <h2 className='get_app_heading text-4xl font-bold tracking-wide pb-10'>Get The {props.text} <span className='border-b-4 pb-2 app_text'>App</span> </h2>
